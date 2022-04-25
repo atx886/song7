@@ -118,7 +118,7 @@ def cs():
         d.implicitly_wait(5)
         dl(writeexcle(c), d)
         c += 1
-        zong += zz(d)
+        zong += float(zz(d))
         a -= 1
         d.close()
 
