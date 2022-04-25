@@ -1,0 +1,26 @@
+1650878089068	geckodriver	INFO	Listening on 127.0.0.1:55650
+1650878092199	mozrunner::runner	INFO	Running command: "E:\\Software\\火狐\\firefox.exe" "--marionette" "--remote-debugging-port" "55651" "-no-remote" "-profile" "C:\\Users\\adm\\AppData\\Local\\Temp\\rust_mozprofileDx97pZ"
+1650878092952	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\adm\\AppData\\Local\\Temp\\rust_mozprofileDx97pZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55651/devtools/browser/009218ea-62b3-40f3-b795-6ecea6bc2302
+1650878095071	Marionette	INFO	Listening on port 55658
+1650878095400	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.chaojijishi.com"
+JavaScript error: https://www.chaojijishi.com/h5/static/js/index.c65d8d69.js, line 1: TypeError: a is undefined
+1650878234384	geckodriver	INFO	Listening on 127.0.0.1:55806
+1650878237475	mozrunner::runner	INFO	Running command: "E:\\Software\\火狐\\firefox.exe" "--marionette" "--remote-debugging-port" "55807" "-no-remote" "-profile" "C:\\Users\\adm\\AppData\\Local\\Temp\\rust_mozprofileqpJ5gm"
+1650878237886	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\adm\\AppData\\Local\\Temp\\rust_mozprofileqpJ5gm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55807/devtools/browser/319d17e2-ad10-42cd-ad90-4dc7687add2c
+1650878239537	Marionette	INFO	Listening on port 55814
+1650878239631	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.chaojijishi.com"
+JavaScript error: https://www.chaojijishi.com/h5/static/js/index.c65d8d69.js, line 1: TypeError: a is undefined
+1650878365309	geckodriver	INFO	Listening on 127.0.0.1:55928
+1650878368392	mozrunner::runner	INFO	Running command: "E:\\Software\\火狐\\firefox.exe" "--marionette" "--remote-debugging-port" "55929" "-no-remote" "-profile" "C:\\Users\\adm\\AppData\\Local\\Temp\\rust_mozprofilei6ISiz"
+1650878368838	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\adm\\AppData\\Local\\Temp\\rust_mozprofilei6ISiz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55929/devtools/browser/6ba2ba91-92a5-4f4d-a69a-3fdcbbedb34c
+1650878370484	Marionette	INFO	Listening on port 55935
+1650878370553	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.chaojijishi.com"
