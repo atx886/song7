@@ -73,14 +73,16 @@ def dl(phone, d):
     rw()
 
 
-def zz(d):
+def zz(d, mm):
     rw()
     d.get('https://www.chaojijishi.com/h5/#/pages/subpack1/pay-model/JDpay')
     rw()
+
     jifen = d.find_element_by_xpath(
         '/html/body/uni-app/uni-page/uni-page-wrapper/uni-page-body/uni-view/uni-view/uni-swiper/div/div/div/uni-swiper-item/uni-view/uni-view/uni-view[2]').text
 
     print(jifen)
+    rw()
     d.find_element_by_xpath(
         '/html/body/uni-app/uni-page/uni-page-wrapper/uni-page-body/uni-view/uni-view/uni-view[1]/uni-view[1]').click()
     rw()
@@ -98,12 +100,13 @@ def zz(d):
     rw()
     d.find_element_by_xpath(
         '/html/body/uni-app/uni-page/uni-page-wrapper/uni-page-body/uni-view/uni-view[2]/uni-view[2]/uni-view/uni-view/uni-view[4]/uni-view[2]/uni-input/div/input').send_keys(
-        147369)
+        mm)
     # 确定
     rw()
     # input('测试')
     d.find_element_by_xpath(
         '/html/body/uni-app/uni-page/uni-page-wrapper/uni-page-body/uni-view/uni-view[2]/uni-view[2]/uni-view/uni-view/uni-view[5]/uni-view[2]').click()
+    rw()
     return jifen
 
 
@@ -118,7 +121,11 @@ def cs():
         d.implicitly_wait(5)
         dl(writeexcle(c), d)
         c += 1
-        zong += float(zz(d))
+        if c <= 105:
+            mm = '000000'
+        else:
+            mm = "147369"
+        zong += float(zz(d, mm))
         a -= 1
         d.close()
 
