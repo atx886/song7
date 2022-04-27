@@ -89,7 +89,7 @@ def zz(d, mm):
     # 输入号码
     d.find_element_by_xpath(
         '/html/body/uni-app/uni-page/uni-page-wrapper/uni-page-body/uni-view/uni-view[2]/uni-view[2]/uni-view/uni-view/uni-view[2]/uni-view[2]/uni-input/div/input').send_keys(
-        16223735700)
+        17024465574)
     rw()
     # 输入积分
     d.find_element_by_xpath(
@@ -120,11 +120,7 @@ def cs():
         # d = webdriver.Firefox()
         d.implicitly_wait(5)
         dl(writeexcle(c), d)
-        c += 1
-        if c <= 105:
-            mm = '000000'
-        else:
-            mm = "147369"
+        mm = "123456"
         zong += float(zz(d, mm))
         a -= 1
         d.close()
